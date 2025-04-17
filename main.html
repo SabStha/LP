@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>NEXT GYM TOKYO | Affiliate Ad</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Noto Sans JP', sans-serif;
+      background-color: #FFF4E6;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 20px 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+      gap: 40px;
+    }
+
+    .text-section {
+      flex: 1 1 480px;
+      padding: 10px 20px 10px 20px;
+      max-width: 600px;
+    }
+
+    .logo h2 {
+      margin-top: 0;
+      font-size: 1.3rem;
+      letter-spacing: 1px;
+    }
+
+    .text-section h1 {
+      font-size: 2.5rem;
+      color: #1A1A1A;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+
+    .text-section p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #444;
+    }
+
+    .cta-button {
+      margin-top: 25px;
+      background-color: #FFD369;
+      color: #1A1A1A;
+      font-size: 1.2rem;
+      font-weight: bold;
+      padding: 16px 28px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      animation: glow 2s infinite alternate;
+      transition: all 0.3s ease;
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .cta-button:hover {
+      background-color: #FFB830;
+      transform: scale(1.05);
+    }
+
+    @keyframes glow {
+      0% { box-shadow: 0 0 5px #FFB830; }
+      100% { box-shadow: 0 0 15px #FFD369; }
+    }
+
+    .highlight-badge {
+      margin-top: 15px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #333;
+    }
+
+    .icon-row {
+      margin-top: 25px;
+      display: flex;
+      gap: 25px;
+    }
+
+    .icon {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 0.9rem;
+      color: #333;
+      transition: transform 0.2s ease;
+    }
+
+    .icon:hover {
+      transform: scale(1.1);
+    }
+
+    .icon img {
+      width: 32px;
+      height: 32px;
+      margin-bottom: 5px;
+    }
+
+    .footer-text {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1rem;
+      margin-top: 40px;
+      color: #333;
+    }
+
+    .sub-cta {
+      margin-top: 15px;
+      font-size: 0.9rem;
+    }
+
+    .sub-cta a {
+      color: #1A1A1A;
+      text-decoration: underline;
+    }
+
+    .image-section {
+      flex: 1 1 600px;
+      max-width: 640px;
+      padding: 10px 0 10px 0;
+    }
+
+    .image-section img {
+      display: block;
+      width: 100%;
+      max-width: 640px;
+      border-radius: 12px;
+      margin-top: 0;
+    }
+
+    blockquote {
+      color: #666;
+      font-style: italic;
+      margin-top: 20px;
+      line-height: 1.6;
+    }
+
+    blockquote span {
+      font-weight: 600;
+      color: #333;
+    }
+
+    @media screen and (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        padding: 20px;
+      }
+
+      .text-section, .image-section {
+        padding: 10px;
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="text-section">
+      <div class="logo">
+        <h2>NEXT GYM TOKYO</h2>
+        <p>女性専用パーソナルジム<br>目黒・駒場・代々木</p>
+      </div>
+
+      <h1>自分史上、<br>最高のわたしへ。</h1>
+      <small style="color: #888; font-size: 0.95rem;">あなたのペースで、キレイを目指す。</small>
+
+      <p>女性専用・初心者歓迎のパーソナルジムで、<br>無理なくキレイに。</p>
+
+      <button class="cta-button" onclick="redirectToTrial()">
+        今すぐ無料体験予約 <span style="font-size: 1.2em;">📝</span>
+      </button>
+
+      <p class="highlight-badge">📍 目黒・駒場・代々木 に3店舗！</p>
+
+      <blockquote>
+        “トレーナーが本当に親身で、運動が楽しくなりました！”<br>
+        <span>— 目黒店ご利用 28歳 女性</span>
+      </blockquote>
+
+      <div class="icon-row">
+        <div class="icon" title="女性専用">
+          <img src="https://img.icons8.com/ios-filled/50/user-female.png" alt="Women Only">
+          <span>女性専用</span>
+        </div>
+        <div class="icon" title="初心者歓迎">
+          <img src="https://img.icons8.com/ios-filled/50/user.png" alt="Beginner Friendly">
+          <span>初心者歓迎</span>
+        </div>
+        <div class="icon" title="パーソナルサポート">
+          <img src="https://img.icons8.com/ios-filled/50/dumbbell.png" alt="Support">
+          <span>パーソナルサポート</span>
+        </div>
+      </div>
+
+      <div class="footer-text">
+        💸 Affordable Membership — Only 30,000 yen<br>
+        💪 One-on-One Personal Support, Every Step<br>
+        📍 Convenient Locations: Meguro, Komaba, Yoyogi
+      </div>
+
+      <div class="sub-cta">
+        Not ready yet? <a href="#">Contact us for questions</a>
+      </div>
+    </div>
+
+    <div class="image-section">
+      <img src="next_gym_photo.png" alt="Gym Trainer and Client">
+    </div>
+  </div>
+
+  <script>
+    function redirectToTrial() {
+      window.location.href = "https://your-affiliate-link.com";
+    }
+  </script>
+</body>
+</html>
